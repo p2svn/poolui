@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html lang="en" ng-app="poolui" class="no-js lt-ie9" manifest="app.manifest"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" ng-app="poolui" class="no-js" manifest="app.manifest"> <!--<![endif]-->
 <head>
-  <title>XMRPool.net - Mine XMR/Monero or BTC/Bitcoin</title>
+  <title>P2S - Mine XMR/Monero</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="vendor/n3-charts/build/LineChart.css">
   <link rel="stylesheet" href="vendor/angular-material-data-table/dist/md-data-table.css">
   <link rel="stylesheet" href="app.css">
+   <link rel="stylesheet" href="assets/plugins/morris/morris.css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
@@ -28,7 +33,7 @@
       <div class="container" layout="row" flex>
         <md-sidenav md-is-locked-open="menuOpen" md-component-id="left" md-whiteframe="4" class="sidenav">
           <md-toolbar class="logo">
-            <h1 class="md-toolbar-tools">XMRPool.net <i class="md-caption">beta</i></h1>
+            <h1 class="md-toolbar-tools">P2S.COM.VN <i class="md-caption">beta</i></h1>
           </md-toolbar>
           <md-list>
             <md-list-item>
@@ -59,12 +64,6 @@
               <md-button href="#/ports" ng-class="isActivePage('ports')">
                 <md-icon md-font-set="material-icons" class="menu-item">flight_land</md-icon>
                 Ports
-              </md-button>
-            </md-list-item>
-            <md-list-item>
-              <md-button href="#/network" ng-class="isActivePage('network')">
-                <md-icon md-font-set="material-icons" class="menu-item">language</md-icon>
-                Network
               </md-button>
             </md-list-item>
             <md-list-item>
@@ -120,6 +119,18 @@
         </md-content>
       </div>
       <!-- Scripts -->
+   <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/modernizr.min.js"></script>
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+        <script src="assets/js/jquery.blockUI.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/js/jquery.scrollTo.min.js"></script>
+        <script src="assets/js/app.js"></script>
       <script src="vendor/jquery/dist/jquery.js"></script>
       <script src="vendor/moment/moment.js"></script>
       <script src="vendor/lodash/dist/lodash.js"></script>
